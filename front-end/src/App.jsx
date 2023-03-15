@@ -3,9 +3,9 @@ import { Route, Router, Routes } from 'react-router-dom'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Navbar from './layout/Navbar'
 import Home from './pages/Home'
-import AddUser from './users/AddUser'
-import EditUser from './users/EditUser'
-import ViewUser from './users/ViewUser'
+import AddUser from './components/AddUser'
+import EditUser from './components/EditUser'
+import ViewUser from './components/ViewUser'
 
 const App = () => {
   return (

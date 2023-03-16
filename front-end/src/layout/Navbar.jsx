@@ -9,7 +9,7 @@ const Navbar = () => {
                     <Link to={'/'} className='navbar-brand text-white'>
                         Simple CRUD With React & Spring Boot
                     </Link>
-                    <Link to={'/adduser'} className="btn btn-danger" type="submit">Add User</Link>
+                    <Link to={'/adduser'} className="btn btn-danger" type="submit">Register User</Link>
                 </div>
             </nav>
         </div>
